@@ -32907,10 +32907,10 @@ video {
 
 .custom-img {
   background-image: url('images/bg-60.png');
-  background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #header,
