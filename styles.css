@@ -32909,7 +32909,7 @@ video {
   background-image: url('images/bg-60.png');
   background-position: center;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
