@@ -13,78 +13,81 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="text-gray-700 uppercase">
-    <header class="flex flex-col justify-start fixed top-0 z-30 w-full bg-gradient-to-b" id="header-nav">
-      <div class="flex items-start justify-center">
-        <nav class="w-full py-4">
-          <div class="container mx-auto flex flex-wrap justify-between">
-            <div class="w-44 ml-4 md:ml-8 lg:ml-28">
-              <a href="index.html"><img class="" src="images/logo.png" alt="" /></a>
-            </div>
-  
-            <div class="flex items-center md:hidden mr-4">
-              <button id="hamburger" class="border rounded shadow text-gray-600 border-gray-600 hover:text-gray-800 appearance-none focus:outline-none" title="Menu">
-                <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
-            </div>
-  
-            <div class="mr-0 md:mr-8 lg:mr-28 py-6 md:py-0 md:w-auto w-full hidden md:block bg-white h-screen mt-4 md:bg-transparent md:h-auto md:mt-0" id="menu">
-              <div class="flex flex-col sm:flex-row md:block">
-                <ul
-                  class="list-reset flex flex-1 md:justify-end items-center md:mb-10 flex-col md:flex-row order-2"
-                >
-                  <li class="mx-10"><a class="block tracking-wider my-2 lg:my-0  text-sm px-4 py-1 rounded-full border border-black hover:text-white hover:bg-primary hover:border-primary hover:shadow-lg" href="#">Web Tracking</a></li>
-                  <li class=""><a class="flex justify-center items-center tracking-wider my-2 lg:my-0 hover:text-black hover:underline" href="#"><img class="w-6" src="images/en.png" alt=""> <span class="ml-1 text-xxxs w-full md:w-14">English Version</span></a></li>
-                  <li class=""><a class="flex justify-center items-center tracking-wider my-2 lg:my-0 hover:text-black hover:underline" href="#"><img class="w-6" src="images/es.png" alt=""> <span class="ml-1 text-xxxs w-full md:w-14">Version en Español</span></a></li>
-                </ul>
-                <ul id="main-navigation"
-                  class="list-reset flex flex-1 md:justify-end items-center md:mb-10 flex-col md:flex-row order-1"
-                >
-                  <li class="mx-0 md:mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#shiplog">Shiplog</a></li>
-                  <li class="mx-0 md:mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#divisoes">Divisões</a></li>
-                  <li class="mx-0 md:mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#servicos">Serviços</a></li>
-                  <li class="mx-0 md:mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#mercados">Mercados</a></li>
-                  <li class="mx-0 md:ml-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#contate">Contate</a></li>
-                </ul>
+    <div class="container mx-auto shadow-lg">
+      <header class="relative flex flex-col justify-start pb-24 lg:pb-96 custom-img bg-cover" id="header">
+        <div class="flex items-start justify-center">
+          <nav class="w-full mt-4 md:mt-10">
+            <div class="container mx-auto flex flex-wrap justify-between">
+              <div class="w-44 ml-4 md:ml-8 lg:ml-28">
+                <a href="#"><img class="" src="images/logo.png" alt="" /></a>
+              </div>
+    
+              <div class="flex items-center md:hidden mr-4">
+                <button id="hamburger" class="border rounded shadow text-gray-600 border-gray-600 hover:text-gray-800 appearance-none focus:outline-none" title="Menu">
+                  <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+    
+              <div class="mr-0 md:mr-8 lg:mr-28 py-6 md:py-0 md:w-auto w-full hidden md:block" id="menu">
+                <div class="flex flex-col sm:flex-row md:block">
+                  <ul
+                    class="list-reset flex flex-1 md:justify-end items-center md:mb-10 flex-col md:flex-row order-2"
+                  >
+                    <li class="mx-10"><a class="block tracking-wider my-2 lg:my-0  text-sm px-4 py-1 rounded-full border border-black hover:text-white hover:bg-primary hover:border-primary hover:shadow-lg" href="#">Web Tracking</a></li>
+                    <li class=""><a class="flex justify-center items-center tracking-wider my-2 lg:my-0 hover:text-black hover:underline" href="#"><img class="w-6" src="images/en.png" alt=""> <span class="ml-1 text-xxxs w-full md:w-14">English Version</span></a></li>
+                    <li class=""><a class="flex justify-center items-center tracking-wider my-2 lg:my-0 hover:text-black hover:underline" href="#"><img class="w-6" src="images/es.png" alt=""> <span class="ml-1 text-xxxs w-full md:w-14">Version en Español</span></a></li>
+                  </ul>
+                  <ul id="main-navigation"
+                    class="list-reset flex flex-1 md:justify-end items-center md:mb-10 flex-col md:flex-row order-1"
+                  >
+                    <li class="mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#shiplog">Shiplog</a></li>
+                    <li class="mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#divisoes">Divisões</a></li>
+                    <li class="mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#servicos">Serviços</a></li>
+                    <li class="mx-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#mercados">Mercados</a></li>
+                    <li class="ml-3"><a class="block tracking-wider my-2 lg:my-0 hover:text-black" href="#contate">Contate</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
+          </nav>
+        </div>
+        
+      </header>
+  
+      <main>
+        <section class="pb-16 lg:pb-32 pt-16 relative bg-gradient-to-b from-lightGray to-white" id="shiplog">
+          <div class="absolute bottom-0 w-full h-2/4 bg-center bg-cover" style="background-image: url('images/mapa.png')">
+            <span class="w-full h-full absolute opacity-50 bg-white"></span>
           </div>
-        </nav>
-      </div>
-      
-    </header>
-
-    <div class="w-full">
-      <main class="bg-fixed bg-top bg-cover custom-img">
-        <section class="relative pb-16 lg:pb-32 pt-16" id="shiplog">
           <div class="container mx-auto px-4 relative">
             <div class="flex flex-wrap justify-center text-center mb-8 lg:mb-24">
-              <div class="w-full lg:w-9/12 px-4 mt-44 pt-12">
+              <div class="w-full lg:w-9/12 px-4">
                 <h2
                     class="
-                      text-5xl text-gray-800
+                      text-4xl text-gray-600
                       uppercase
                       font-medium
                       tracking-wide
-                      mb-20
+                      mb-10
                     "
                   >
                     Shiplog
                   </h2>
   
-                  <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-800">
+                  <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-600">
                     NOSSO NEGÓCIO É FAZER O COMÉRCIO INTERNACIONAL ACONTECER E
                     OFERECER A MELHOR SOLUÇÃO LOGÍSTICA
                   </p>
   
-                  <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-800">
+                  <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-600">
                     HÁ MAIS DE 15 ANOS A SHIPLOG VIABILIZA EXPORTAÇÕES E
                     IMPORTAÇÕES DE PRODUTOS E INSUMOS PARA CLIENTES DE DIVERSOS
                     SEGMENTOS DE MERCADO
                   </p>
   
-                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-800">
+                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-600">
                   SHIPLOG & CONFIA CONSTITUEM UM GRUPO QUE OFERECE SERVIÇOS
                   COMPLETOS DE LOGÍSTICA E TRADING, COMPOSTO POR QUATRO
                   EMPRESAS:
@@ -92,42 +95,42 @@
   
                 <ul class="mb-10 mt-6 list-none pl-0">
                   <li class="custom-list flex justify-start">
-                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-800">
+                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-600">
                       CONFIA COMERCIO INTERNACIONAL E LOGISTICA LTDA. (COMERCIAL
                       IMP. E EXP. - TRADING)
                     </span>
                   </li>
                   <li class="custom-list flex justify-start">
-                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-800">
+                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-600">
                       SHIPLOG BRASIL AGENCIAMENTO DE CARGAS E LOGISTICA LTDA.
                       (AGENTE DE CARGAS)
                     </span>
                   </li>
                   <li class="custom-list flex justify-start">
-                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-800">
+                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-600">
                       SHIPLOG AG. DE CARGAS E DESEMBARAÇO ADUANEIRO LTDA.
                       (DESPACHANTE ADUANEIRO)
                     </span>
                   </li>
                   <li class="custom-list flex justify-start">
-                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-800">
+                    <span class="mb-2 ml-4 flex-grow text-left text-sm lg:text-lg text-gray-600">
                       SHIPLOG TRANSPORTES LTDA. (TRANSPORTADORA RODOVIÁRIA)
                     </span>
                   </li>
                 </ul>
   
-                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-800">
+                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-600">
                   OFERECEMOS SERVIÇO COMPLETO PORTA A PORTA COM SOLUÇÕES
                   LOGÍSTICAS PARA NOSSOS CLIENTES EM TODO O MUNDO.
                 </p>
   
-                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-800">
+                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-600">
                   NOSSA EQUIPE CONTA COM PROFISSIONAIS EXPERIENTES E SEMPRE
                   DISPOSTOS A COLABORAR COM QUEM DESEJA ATUAR NO COMÉRCIO
                   INTERNACIONAL.
                 </p>
   
-                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-800">
+                <p class="text-sm lg:text-lg leading-relaxed mb-4 mt-8 text-gray-600">
                   SOMOS REPRESENTADOS EM TODO O GLOBO ATRAVÉS DE AGENTES
                   PARCEIROS
                 </p>
@@ -136,7 +139,7 @@
   
                 <h2
                   class="
-                    text-4xl text-gray-800
+                    text-4xl text-gray-600
                     uppercase
                     font-medium
                     mb-8
@@ -145,30 +148,28 @@
                 >
                   Missão
                 </h2>
-                <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-800">
+                <p class="text-base lg:text-xl leading-relaxed m-4 text-gray-600">
                   OFERECER SOLUÇÕES EM COMÉRCIO EXTERIOR COM ATENDIMENTO
                   PERSONALIZADO, COMPETITIVIDADE, PROFISSIONALISMO E AGILIDADE,
                   COLABORANDO PARA O ATINGIMENTO DOS OBJETIVOS DE NOSSOS
                   CLIENTES.
                 </p>
-                <div class="flex flex-wrap justify-evenly text-center">
-                  <div class="my-10">
-                    <img src="images/shiplog.png" class="w-44" alt="" />
-                  </div>
-                  <div class="my-10">
-                    <a href="#">
-                      <img src="images/confia.png" class="w-44" alt="" />
-                    </a>
-                  </div>
-                </div>
+              </div>
+            </div>
+            <div class="flex flex-wrap justify-evenly text-center">
+              <div class="my-10">
+                <img src="images/shiplog.png" class="w-44" alt="" />
+              </div>
+              <div class="my-10">
+                <img src="images/confia.png" class="w-44" alt="" />
               </div>
             </div>
           </div>
         </section>
   
-        <section class="pt-24 bg-white" id="divisoes">
+        <section class="pt-14" id="divisoes">
           <div class="container mx-auto px-4">
-            <div class="text-center mt-44 pb-44">
+            <div class="text-center mb-24">
               <h2
                 class="
                   text-4xl text-gray-600
@@ -252,9 +253,9 @@
           </div>
         </section>
   
-        <section class="pt-2 bg-gray-100" id="servicos">
+        <section class="pt-14 bg-gray-100" id="servicos">
           <div class="container mx-auto px-4">
-            <div class="text-center mt-44 pb-44">
+            <div class="text-center mb-12 md:mb-24">
               <h2
                 class="
                   text-4xl text-gray-600
@@ -338,9 +339,9 @@
           </div>
         </section>
   
-        <section class="relative pt-2 bg-white" id="mercados">
+        <section class="relative pt-0 lg:pt-14" id="mercados">
           <div class="container mx-auto px-4">
-            <div class="text-center mt-44">
+            <div class="text-center">
               <h2
                 class="
                   text-4xl text-gray-600
@@ -404,7 +405,7 @@
   
         <section class="relative pt-14 bg-gray-100" id="contate">
           <div class="container mx-auto px-4">
-            <div class="text-center pb-24 mt-44">
+            <div class="text-center mb-24">
               <h2
                 class="
                   text-4xl text-gray-600
@@ -517,21 +518,5 @@
       </main>
     </div>
     <script src="site.js"></script>
-    <script>
-      var scrollpos = window.scrollY;
-      var header = document.getElementById("header-nav");
-      document.addEventListener("scroll", function () {
-        /*Apply classes for slide in bar*/
-        scrollpos = window.scrollY;
-
-        if (scrollpos > 10) {
-          header.classList.add("from-midBlue");
-          header.classList.add("to-skyBlue");
-        } else {
-          header.classList.remove("from-midBlue");
-          header.classList.remove("to-skyBlue");
-        }
-      });
-    </script>
   </body>
 </html>
