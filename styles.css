@@ -32908,6 +32908,9 @@ video {
 .custom-img {
   background-image: url('images/bg-60.png');
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
